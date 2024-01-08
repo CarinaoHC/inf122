@@ -1,0 +1,15 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --purple: #6f2cff;
+    --light-purple: #efe9f9;
+    --read-heart: #a50954;
+    --blue-heart: #acd9b2;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
+}
