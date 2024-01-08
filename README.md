@@ -1,5 +1,4 @@
-#INF - 122
-Nombre: Karina Mamani
-Materia: INF-122
+# INF - 122
+Nombre: Karina Mamani Condori
 
-Color Favorito: #ffffff
+Materia: INF-122
