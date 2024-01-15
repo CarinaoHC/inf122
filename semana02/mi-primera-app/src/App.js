@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import  Evento  from './components/Evento';
 import  EventoB  from './components/EventoB';
+import  EventoC  from './components/EventoC';
  
 function App() {
   return (
     <div className="App">
-      <Evento/>
       <Evento/>
       <EventoB title="Py Pizza 03 - PyPuzzle"
         image="imagen1"
@@ -30,6 +30,17 @@ function App() {
         ha impartido conferencias y talleres en diversas PyCon en múltiples países.
         
         En esta charla Valery nos presentara: 3 Pitfalls de la Ingeniería de datos (donde no meter la pata)"
+      />
+      <EventoC title="¡Ven a conocer a la comunidad!"
+        image="imagen3"
+        dateLiteral="13 Noviembre de 2023 - 27 de Noviembre de 2023"
+        placeLiteral="La Paz - Bolivia"
+        description={[
+          "¡Hola Pythonista!",
+          "Participa en este Evento Presencial de la comunidad Python La Paz",
+          "¿Sabías que existe una comunidad de Python en la ciudad de La Paz?",
+          "Entérate de todas las actividades y proyectos que realiza la comunidad Python La Paz"
+        ]}
       />
     </div>
   );
