@@ -1,0 +1,12 @@
+.perfil {
+    width: 30px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 50%;
+}
