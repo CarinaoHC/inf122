@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Juego.css';
 import Historial from './Historial';
-import Tablero from './Tablero';
+import TableroE from './Tablero';
 import { useState } from 'react';
 
 function Juego() {
@@ -43,11 +43,9 @@ function Juego() {
         <div className="juego">
             <div className="juego-tablero">
                 <h2>{ganador ? `Ganador: ${ganador}` : `Próximo jugador: ${jugador}`}</h2>
-                <Tablero cuadros={movimientoActual.cuadros} onClick={(i) => click(i)} />
+                <TableroE cuadros={movimientoActual.cuadros} onClick={(i) => click(i)} />
             </div>
-            <div>
-                <Historial historial={historial} saltarA={saltarA} />
-            </div>
+            <Historial historial={historial} saltarA={saltarA} />
         </div>
     );
 }
